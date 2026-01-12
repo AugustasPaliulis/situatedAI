@@ -268,7 +268,9 @@
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#AccommodationEntities -->
 
-    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccommodationEntities"/>
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccommodationEntities">
+        <rdfs:label>AccommodationEntities</rdfs:label>
+    </Class>
     
 
 
@@ -287,19 +289,24 @@
             </Class>
         </equivalentClass>
         <rdfs:subClassOf rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Hotel"/>
+        <rdfs:label>Luxury Hotel</rdfs:label>
     </Class>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#TransportationEntities -->
 
-    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TransportationEntities"/>
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#TransportationEntities">
+        <rdfs:label>TransportationEntities</rdfs:label>
+    </Class>
     
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#WaterBody -->
 
-    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#WaterBody"/>
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#WaterBody">
+        <rdfs:label>WaterBody</rdfs:label>
+    </Class>
     
 
 
