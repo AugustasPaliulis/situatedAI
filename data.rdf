@@ -43,6 +43,7 @@
     <!-- http://kai.cs.vu.nl/2024/situated-minor-project/hotel#inCity -->
 
     <ObjectProperty rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#inCity">
+        <rdfs:subPropertyOf rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#nextTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdfs:range rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#City"/>
         <rdfs:label>in city</rdfs:label>
@@ -433,13 +434,13 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Airport Shuttle</rdfs:label>
     </NamedIndividual>
     
@@ -485,13 +486,12 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Free Wifi</rdfs:label>
     </NamedIndividual>
     
@@ -573,13 +573,11 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Parking Space</rdfs:label>
     </NamedIndividual>
     
@@ -589,13 +587,10 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Private Bathroom</rdfs:label>
     </NamedIndividual>
     
@@ -605,13 +600,9 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Restaurant in Hotel</rdfs:label>
     </NamedIndividual>
     
@@ -621,13 +612,8 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
+        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
         <rdfs:label>Sauna</rdfs:label>
     </NamedIndividual>
     
@@ -656,12 +642,6 @@
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
         <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
         <rdfs:label>Swimming Pool</rdfs:label>
     </NamedIndividual>
     
@@ -15885,13 +15865,6 @@
 
     <NamedIndividual rdf:about="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#24h_front_desk">
         <rdf:type rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Facility"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Airport_Shuttle"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Parking_Space"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Private_Bathroom"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#RestaurantInHotel"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Sauna"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Swimming_Pool"/>
-        <differentFrom rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#Free_Wifi"/>
         <rdfs:label>24h Front Desk</rdfs:label>
     </NamedIndividual>
     
