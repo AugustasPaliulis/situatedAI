@@ -106,14 +106,6 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:subPropertyOf rdf:resource="http://kai.cs.vu.nl/2024/situated-minor-project/hotel#hasFacility"/>
-    </rdf:Description>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
